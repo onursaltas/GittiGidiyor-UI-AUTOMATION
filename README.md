@@ -1,6 +1,6 @@
 # Sahibinden-UI-Automation-Test
 
-/*
+
 - www.gittigidiyor.com sitesi açılır.
 - Ana sayfanın açıldığı kontrol edilir. Siteye login olunur
 - Login işlemi kontrol edilir.
@@ -12,4 +12,4 @@
 - Ürün sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır.
 - Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
 - Ürün sepetten silinerek sepetin boş olduğu kontrol edilir.
- */
+ 
