@@ -1,4 +1,4 @@
-# Sahibinden-UI-Automation-Test
+# GittiGidiyor-UI-Automation-Test
 
 
 - www.gittigidiyor.com sitesi açılır.
