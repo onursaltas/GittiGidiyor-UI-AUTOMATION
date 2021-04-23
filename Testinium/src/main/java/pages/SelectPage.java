@@ -18,7 +18,7 @@ public class SelectPage {
     private WebDriverWait wait;
 
     private By productsList = By.xpath("//ul[@class='catalog-view clearfix products-container']");
-    private By secondPage = By.xpath("//*[@id=\"best-match-right\"]/div[5]/ul/li[2]/a");
+    private String secondPage = "https://www.gittigidiyor.com/arama/?k=bilgisayar&sf=2";
     private By actualPageNumberXpath = By.xpath("//a[@class='current']");
     private String expectedPageNumber = "2";
 
@@ -35,9 +35,7 @@ public class SelectPage {
     }
 
     public void clickSecondPageButton() {
-
-        wait.until(ExpectedConditions.elementToBeClickable(secondPage));
-        driver.findElement(secondPage).click();
+        driver.get(secondPage);
     }
 
     public ProductPage selectProduct() {
