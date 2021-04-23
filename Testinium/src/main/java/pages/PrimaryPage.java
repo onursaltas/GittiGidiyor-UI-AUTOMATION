@@ -15,7 +15,7 @@ public class PrimaryPage {
 
     private By searchFıeld = By.xpath("//input[@type='text']");
     private By findButton = By.xpath("//button[@class='qjixn8-0 sc-1bydi5r-0 hKfdXF']");
-    private By accountNameField = By.xpath("//div[@class='gekhq4-4 hwMdSM']");
+    private By accountNameField = By.xpath("//div[@class='gekhq4-4 egoSnI']");
 
     String expectedAccountName = "Hesabım\nqquestionanswer";
 
